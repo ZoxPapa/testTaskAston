@@ -27,7 +27,7 @@ public class Task1 {
                 this.firstNumber = firstNumber;
                 this.secondNumber = secondNumber;
             }catch (RuntimeException e){
-                System.out.println("Ошибка при вводе данных, попробуйте ввести оба числа снова");
+                System.out.println("Ошибка при вводе данных, попробуйте ввести оба числа еще раз");
                 sc.next();
             }
         }
